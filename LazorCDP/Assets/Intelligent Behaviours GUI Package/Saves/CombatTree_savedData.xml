@@ -1,0 +1,492 @@
+<?xml version="1.0"?>
+<XMLElement xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>5bb273ca-8d0c-45eb-bad3-4089caf7adcd</Id>
+  <elemType>BehaviourTree</elemType>
+  <secondType />
+  <thirdType />
+  <fourthType />
+  <name>Combat Tree</name>
+  <windowPosX>411</windowPosX>
+  <windowPosY>176</windowPosY>
+  <nodes>
+    <XMLElement>
+      <Id>a1e821f9-2fb7-427a-b7e6-76fbe0a7f655</Id>
+      <elemType>BehaviourNode</elemType>
+      <secondType>LoopN</secondType>
+      <thirdType />
+      <fourthType />
+      <name>New LoopN Node</name>
+      <windowPosX>599</windowPosX>
+      <windowPosY>57</windowPosY>
+      <nodes>
+        <XMLElement>
+          <Id>ebb43346-eedf-4993-ab93-e3230983fc94</Id>
+          <elemType>BehaviourNode</elemType>
+          <secondType>Selector</secondType>
+          <thirdType />
+          <fourthType />
+          <name>New Selector Node</name>
+          <windowPosX>602</windowPosX>
+          <windowPosY>183</windowPosY>
+          <nodes>
+            <XMLElement>
+              <Id>76ac0713-dc03-4b22-9a8b-a18ce5c315b8</Id>
+              <elemType>BehaviourNode</elemType>
+              <secondType>Sequence</secondType>
+              <thirdType />
+              <fourthType />
+              <name>New Sequence Node</name>
+              <windowPosX>140</windowPosX>
+              <windowPosY>177</windowPosY>
+              <nodes>
+                <XMLElement>
+                  <Id>ea62f331-cf15-4009-9b7d-24d96f02fe72</Id>
+                  <elemType>BehaviourNode</elemType>
+                  <secondType>Leaf</secondType>
+                  <thirdType />
+                  <fourthType />
+                  <name>Low Health?</name>
+                  <windowPosX>16</windowPosX>
+                  <windowPosY>326</windowPosY>
+                  <nodes />
+                  <isRandom>false</isRandom>
+                  <isInfinite>false</isInfinite>
+                  <delayTime>0</delayTime>
+                  <Nloops>0</Nloops>
+                  <index>1</index>
+                  <variableMin>0</variableMin>
+                  <variableMax>0</variableMax>
+                  <slope>0</slope>
+                  <exp>0</exp>
+                  <displX>0</displX>
+                  <displY>0</displY>
+                  <weight>0</weight>
+                  <isExit>false</isExit>
+                </XMLElement>
+                <XMLElement>
+                  <Id>74e37d97-26ba-4b13-b5d7-cfadea4e56d9</Id>
+                  <elemType>BehaviourNode</elemType>
+                  <secondType>Selector</secondType>
+                  <thirdType />
+                  <fourthType />
+                  <name>New Selector Node 1</name>
+                  <windowPosX>259</windowPosX>
+                  <windowPosY>338</windowPosY>
+                  <nodes>
+                    <XMLElement>
+                      <Id>20f56c32-d7ea-4440-a2aa-300d37db2d1e</Id>
+                      <elemType>BehaviourNode</elemType>
+                      <secondType>Sequence</secondType>
+                      <thirdType />
+                      <fourthType />
+                      <name>New Sequence Node 2</name>
+                      <windowPosX>125</windowPosX>
+                      <windowPosY>488</windowPosY>
+                      <nodes>
+                        <XMLElement>
+                          <Id>7a34ecfc-c6fe-4295-b92e-a255858a4e1d</Id>
+                          <elemType>BehaviourNode</elemType>
+                          <secondType>Leaf</secondType>
+                          <thirdType />
+                          <fourthType />
+                          <name>Has cures?</name>
+                          <windowPosX>31</windowPosX>
+                          <windowPosY>640</windowPosY>
+                          <nodes />
+                          <isRandom>false</isRandom>
+                          <isInfinite>false</isInfinite>
+                          <delayTime>0</delayTime>
+                          <Nloops>0</Nloops>
+                          <index>1</index>
+                          <variableMin>0</variableMin>
+                          <variableMax>0</variableMax>
+                          <slope>0</slope>
+                          <exp>0</exp>
+                          <displX>0</displX>
+                          <displY>0</displY>
+                          <weight>0</weight>
+                          <isExit>false</isExit>
+                        </XMLElement>
+                        <XMLElement>
+                          <Id>2011f268-df79-4e32-9d39-c00b46c00768</Id>
+                          <elemType>BehaviourNode</elemType>
+                          <secondType>Sequence</secondType>
+                          <thirdType />
+                          <fourthType />
+                          <name>New Sequence Node 3</name>
+                          <windowPosX>291</windowPosX>
+                          <windowPosY>638</windowPosY>
+                          <nodes>
+                            <XMLElement>
+                              <Id>57f7a851-83f9-494c-92aa-6bf29ef22386</Id>
+                              <elemType>BehaviourNode</elemType>
+                              <secondType>Leaf</secondType>
+                              <thirdType />
+                              <fourthType />
+                              <name>Heal</name>
+                              <windowPosX>134</windowPosX>
+                              <windowPosY>721</windowPosY>
+                              <nodes />
+                              <isRandom>false</isRandom>
+                              <isInfinite>false</isInfinite>
+                              <delayTime>0</delayTime>
+                              <Nloops>0</Nloops>
+                              <index>1</index>
+                              <variableMin>0</variableMin>
+                              <variableMax>0</variableMax>
+                              <slope>0</slope>
+                              <exp>0</exp>
+                              <displX>0</displX>
+                              <displY>0</displY>
+                              <weight>0</weight>
+                              <isExit>false</isExit>
+                            </XMLElement>
+                            <XMLElement>
+                              <Id>321bc7cc-8254-4c94-b430-70464640f3a8</Id>
+                              <elemType>BehaviourNode</elemType>
+                              <secondType>Leaf</secondType>
+                              <thirdType />
+                              <fourthType />
+                              <name>Reload</name>
+                              <windowPosX>462</windowPosX>
+                              <windowPosY>733</windowPosY>
+                              <nodes />
+                              <isRandom>false</isRandom>
+                              <isInfinite>false</isInfinite>
+                              <delayTime>0</delayTime>
+                              <Nloops>0</Nloops>
+                              <index>2</index>
+                              <variableMin>0</variableMin>
+                              <variableMax>0</variableMax>
+                              <slope>0</slope>
+                              <exp>0</exp>
+                              <displX>0</displX>
+                              <displY>0</displY>
+                              <weight>0</weight>
+                              <isExit>false</isExit>
+                            </XMLElement>
+                          </nodes>
+                          <isRandom>false</isRandom>
+                          <isInfinite>false</isInfinite>
+                          <delayTime>0</delayTime>
+                          <Nloops>0</Nloops>
+                          <index>2</index>
+                          <variableMin>0</variableMin>
+                          <variableMax>0</variableMax>
+                          <slope>0</slope>
+                          <exp>0</exp>
+                          <displX>0</displX>
+                          <displY>0</displY>
+                          <weight>0</weight>
+                          <isExit>false</isExit>
+                        </XMLElement>
+                      </nodes>
+                      <isRandom>false</isRandom>
+                      <isInfinite>false</isInfinite>
+                      <delayTime>0</delayTime>
+                      <Nloops>0</Nloops>
+                      <index>1</index>
+                      <variableMin>0</variableMin>
+                      <variableMax>0</variableMax>
+                      <slope>0</slope>
+                      <exp>0</exp>
+                      <displX>0</displX>
+                      <displY>0</displY>
+                      <weight>0</weight>
+                      <isExit>false</isExit>
+                    </XMLElement>
+                    <XMLElement>
+                      <Id>88c820ab-9977-4dd6-8815-2cbaefa582c2</Id>
+                      <elemType>BehaviourNode</elemType>
+                      <secondType>Leaf</secondType>
+                      <thirdType />
+                      <fourthType />
+                      <name>Scape</name>
+                      <windowPosX>369</windowPosX>
+                      <windowPosY>489</windowPosY>
+                      <nodes />
+                      <isRandom>false</isRandom>
+                      <isInfinite>false</isInfinite>
+                      <delayTime>0</delayTime>
+                      <Nloops>0</Nloops>
+                      <index>2</index>
+                      <variableMin>0</variableMin>
+                      <variableMax>0</variableMax>
+                      <slope>0</slope>
+                      <exp>0</exp>
+                      <displX>0</displX>
+                      <displY>0</displY>
+                      <weight>0</weight>
+                      <isExit>false</isExit>
+                    </XMLElement>
+                  </nodes>
+                  <isRandom>false</isRandom>
+                  <isInfinite>false</isInfinite>
+                  <delayTime>0</delayTime>
+                  <Nloops>0</Nloops>
+                  <index>2</index>
+                  <variableMin>0</variableMin>
+                  <variableMax>0</variableMax>
+                  <slope>0</slope>
+                  <exp>0</exp>
+                  <displX>0</displX>
+                  <displY>0</displY>
+                  <weight>0</weight>
+                  <isExit>false</isExit>
+                </XMLElement>
+              </nodes>
+              <isRandom>false</isRandom>
+              <isInfinite>false</isInfinite>
+              <delayTime>0</delayTime>
+              <Nloops>0</Nloops>
+              <index>1</index>
+              <variableMin>0</variableMin>
+              <variableMax>0</variableMax>
+              <slope>0</slope>
+              <exp>0</exp>
+              <displX>0</displX>
+              <displY>0</displY>
+              <weight>0</weight>
+              <isExit>false</isExit>
+            </XMLElement>
+            <XMLElement>
+              <Id>5b411554-72ac-4a01-b947-a7301b034f3a</Id>
+              <elemType>BehaviourNode</elemType>
+              <secondType>Sequence</secondType>
+              <thirdType />
+              <fourthType />
+              <name>New Sequence Node 1</name>
+              <windowPosX>601</windowPosX>
+              <windowPosY>293</windowPosY>
+              <nodes>
+                <XMLElement>
+                  <Id>0b34e9e1-6da9-427e-8c27-f11281c6b938</Id>
+                  <elemType>BehaviourNode</elemType>
+                  <secondType>Leaf</secondType>
+                  <thirdType />
+                  <fourthType />
+                  <name>Is player seen?</name>
+                  <windowPosX>538</windowPosX>
+                  <windowPosY>419</windowPosY>
+                  <nodes />
+                  <isRandom>false</isRandom>
+                  <isInfinite>false</isInfinite>
+                  <delayTime>0</delayTime>
+                  <Nloops>0</Nloops>
+                  <index>1</index>
+                  <variableMin>0</variableMin>
+                  <variableMax>0</variableMax>
+                  <slope>0</slope>
+                  <exp>0</exp>
+                  <displX>0</displX>
+                  <displY>0</displY>
+                  <weight>0</weight>
+                  <isExit>false</isExit>
+                </XMLElement>
+                <XMLElement>
+                  <Id>3cd94050-1d0e-46c4-8607-39c7efe2c38f</Id>
+                  <elemType>BehaviourNode</elemType>
+                  <secondType>Selector</secondType>
+                  <thirdType />
+                  <fourthType />
+                  <name>New Selector Node 2</name>
+                  <windowPosX>819</windowPosX>
+                  <windowPosY>410</windowPosY>
+                  <nodes>
+                    <XMLElement>
+                      <Id>44a11b7b-481c-43a1-a154-33bfef4bd166</Id>
+                      <elemType>BehaviourNode</elemType>
+                      <secondType>Sequence</secondType>
+                      <thirdType />
+                      <fourthType />
+                      <name>New Sequence Node 4</name>
+                      <windowPosX>696</windowPosX>
+                      <windowPosY>561</windowPosY>
+                      <nodes>
+                        <XMLElement>
+                          <Id>f76386af-741b-40cd-a4b3-afb60dbfa10d</Id>
+                          <elemType>BehaviourNode</elemType>
+                          <secondType>Leaf</secondType>
+                          <thirdType />
+                          <fourthType />
+                          <name>Low Ammo?</name>
+                          <windowPosX>631</windowPosX>
+                          <windowPosY>690</windowPosY>
+                          <nodes />
+                          <isRandom>false</isRandom>
+                          <isInfinite>false</isInfinite>
+                          <delayTime>0</delayTime>
+                          <Nloops>0</Nloops>
+                          <index>1</index>
+                          <variableMin>0</variableMin>
+                          <variableMax>0</variableMax>
+                          <slope>0</slope>
+                          <exp>0</exp>
+                          <displX>0</displX>
+                          <displY>0</displY>
+                          <weight>0</weight>
+                          <isExit>false</isExit>
+                        </XMLElement>
+                        <XMLElement>
+                          <Id>30e3147b-a3b6-42a3-aa8a-72974e1c771a</Id>
+                          <elemType>BehaviourNode</elemType>
+                          <secondType>Leaf</secondType>
+                          <thirdType />
+                          <fourthType />
+                          <name>Reload 1</name>
+                          <windowPosX>881</windowPosX>
+                          <windowPosY>725</windowPosY>
+                          <nodes />
+                          <isRandom>false</isRandom>
+                          <isInfinite>false</isInfinite>
+                          <delayTime>0</delayTime>
+                          <Nloops>0</Nloops>
+                          <index>2</index>
+                          <variableMin>0</variableMin>
+                          <variableMax>0</variableMax>
+                          <slope>0</slope>
+                          <exp>0</exp>
+                          <displX>0</displX>
+                          <displY>0</displY>
+                          <weight>0</weight>
+                          <isExit>false</isExit>
+                        </XMLElement>
+                      </nodes>
+                      <isRandom>false</isRandom>
+                      <isInfinite>false</isInfinite>
+                      <delayTime>0</delayTime>
+                      <Nloops>0</Nloops>
+                      <index>1</index>
+                      <variableMin>0</variableMin>
+                      <variableMax>0</variableMax>
+                      <slope>0</slope>
+                      <exp>0</exp>
+                      <displX>0</displX>
+                      <displY>0</displY>
+                      <weight>0</weight>
+                      <isExit>false</isExit>
+                    </XMLElement>
+                    <XMLElement>
+                      <Id>425a7e05-a53d-4e08-9c05-c6ffb9836fc6</Id>
+                      <elemType>BehaviourNode</elemType>
+                      <secondType>Leaf</secondType>
+                      <thirdType />
+                      <fourthType />
+                      <name>Shoot</name>
+                      <windowPosX>1007</windowPosX>
+                      <windowPosY>562</windowPosY>
+                      <nodes />
+                      <isRandom>false</isRandom>
+                      <isInfinite>false</isInfinite>
+                      <delayTime>0</delayTime>
+                      <Nloops>0</Nloops>
+                      <index>2</index>
+                      <variableMin>0</variableMin>
+                      <variableMax>0</variableMax>
+                      <slope>0</slope>
+                      <exp>0</exp>
+                      <displX>0</displX>
+                      <displY>0</displY>
+                      <weight>0</weight>
+                      <isExit>false</isExit>
+                    </XMLElement>
+                  </nodes>
+                  <isRandom>false</isRandom>
+                  <isInfinite>false</isInfinite>
+                  <delayTime>0</delayTime>
+                  <Nloops>0</Nloops>
+                  <index>2</index>
+                  <variableMin>0</variableMin>
+                  <variableMax>0</variableMax>
+                  <slope>0</slope>
+                  <exp>0</exp>
+                  <displX>0</displX>
+                  <displY>0</displY>
+                  <weight>0</weight>
+                  <isExit>false</isExit>
+                </XMLElement>
+              </nodes>
+              <isRandom>false</isRandom>
+              <isInfinite>false</isInfinite>
+              <delayTime>0</delayTime>
+              <Nloops>0</Nloops>
+              <index>2</index>
+              <variableMin>0</variableMin>
+              <variableMax>0</variableMax>
+              <slope>0</slope>
+              <exp>0</exp>
+              <displX>0</displX>
+              <displY>0</displY>
+              <weight>0</weight>
+              <isExit>false</isExit>
+            </XMLElement>
+            <XMLElement>
+              <Id>4e1651ba-008d-441b-816d-375275d8dd6a</Id>
+              <elemType>BehaviourNode</elemType>
+              <secondType>Leaf</secondType>
+              <thirdType />
+              <fourthType />
+              <name>Chase Player</name>
+              <windowPosX>1004</windowPosX>
+              <windowPosY>181</windowPosY>
+              <nodes />
+              <isRandom>false</isRandom>
+              <isInfinite>false</isInfinite>
+              <delayTime>0</delayTime>
+              <Nloops>0</Nloops>
+              <index>3</index>
+              <variableMin>0</variableMin>
+              <variableMax>0</variableMax>
+              <slope>0</slope>
+              <exp>0</exp>
+              <displX>0</displX>
+              <displY>0</displY>
+              <weight>0</weight>
+              <isExit>false</isExit>
+            </XMLElement>
+          </nodes>
+          <isRandom>false</isRandom>
+          <isInfinite>false</isInfinite>
+          <delayTime>0</delayTime>
+          <Nloops>0</Nloops>
+          <index>0</index>
+          <variableMin>0</variableMin>
+          <variableMax>0</variableMax>
+          <slope>0</slope>
+          <exp>0</exp>
+          <displX>0</displX>
+          <displY>0</displY>
+          <weight>0</weight>
+          <isExit>false</isExit>
+        </XMLElement>
+      </nodes>
+      <isRandom>false</isRandom>
+      <isInfinite>true</isInfinite>
+      <delayTime>0</delayTime>
+      <Nloops>0</Nloops>
+      <index>4</index>
+      <variableMin>0</variableMin>
+      <variableMax>0</variableMax>
+      <slope>0</slope>
+      <exp>0</exp>
+      <displX>0</displX>
+      <displY>0</displY>
+      <weight>0</weight>
+      <isExit>false</isExit>
+    </XMLElement>
+  </nodes>
+  <transitions />
+  <isRandom>false</isRandom>
+  <isInfinite>false</isInfinite>
+  <delayTime>0</delayTime>
+  <Nloops>0</Nloops>
+  <index>0</index>
+  <variableMin>0</variableMin>
+  <variableMax>0</variableMax>
+  <slope>0</slope>
+  <exp>0</exp>
+  <displX>0</displX>
+  <displY>0</displY>
+  <weight>0</weight>
+  <isExit>false</isExit>
+</XMLElement>

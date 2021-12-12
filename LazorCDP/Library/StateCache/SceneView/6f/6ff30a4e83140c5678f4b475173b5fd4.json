@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-0.0018896013498306275,"y":1.657900094985962,"z":3.2064905166625978},"rotation":{"x":-0.17407403886318208,"y":-0.5128346085548401,"z":0.10706248879432678,"w":-0.8338288068771362},"size":0.1801137924194336,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":6.421823501586914,"y":-0.10660906136035919,"z":-3.682569742202759},"rotation":{"x":-0.062227074056863788,"y":0.9025012850761414,"z":-0.13945646584033967,"w":-0.402706503868103},"size":2.017957925796509,"orthographic":false}
+>>>>>>> origin/emojis
